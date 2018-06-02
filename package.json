@@ -1,0 +1,27 @@
+{
+  "name": "jovo-gdpr-voice-app-nodejs",
+  "version": "1.0.0",
+  "description": "A sample voice app that works with the Jovo framework",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-verifier-middleware": "^1.0.1",
+    "jovo-framework": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js --webhook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovotech/jovo-sample-voice-app-nodejs.git"
+  },
+  "author": "Akansh",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jovotech/jovo-sample-voice-app-nodejs/issues"
+  },
+  "engines": {
+    "node": "9.2.0"
+  },
+  "homepage": "https://github.com/jovotech/jovo-sample-voice-app-nodejs#readme"
+}
